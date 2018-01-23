@@ -12,7 +12,7 @@ RUN chmod +x /docker-entrypoint.sh && \
     chown steam:steam /docker-entrypoint.sh
 
 RUN apt-get update && \
-    apt-get install libboost-all-dev:i386 && \
+    apt-get install -y libboost-all-dev:i386 && \
     apt-get clean
 
 USER steam
