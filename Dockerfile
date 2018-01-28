@@ -17,7 +17,7 @@ RUN apt-get update && \
 
 USER steam
 
-VOLUME /opt/garrysmod
+RUN mkdir -p /opt/garrysmod
 
 EXPOSE ${port}/udp
 
