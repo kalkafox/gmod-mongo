@@ -29,4 +29,4 @@ echo "
         }
     " > /opt/garrysmod/garrysmod/cfg/mount.cfg
 
-exec /opt/garrysmod/srcds_run -port "$port" "$@"
+exec /opt/garrysmod/srcds_run -game garrysmod -port "$port" "$@"
